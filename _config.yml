@@ -1,0 +1,6 @@
+title: Bladimir Moyano
+logo: assets/images/profile_pic.png
+show_downloads: true
+remote_theme: pages-theme.minimal@v0.2.0
+plugins: 
+- jekyll-theme-cayman
