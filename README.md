@@ -79,3 +79,16 @@ To effectively address the client's requirements and present actionable insights
 - **Scorecards**
 
 ![Dashboard-MockUp](assets/images/Dashboard_MuckUp_PowerBI.PNG)
+
+## Development
+
+### Process
+1. Get the data
+2. Explore the data in Excel
+3. Load the data into SQL Server
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualize the data in Power BI
+7. Generate findings based on the insights
+###
+###
