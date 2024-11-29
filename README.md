@@ -13,7 +13,19 @@ Develop a data-driven dashboard that provides actionable insights into the clien
 - **Major Spending Categories**: An analysis of where the client allocates the majority of their funds.  
 - **Largest Expenses**: A detailed view of significant outlays to help prioritize budgeting adjustments.  
 
-By delivering these insights, the dashboard will enable the client to make informed and strategic decisions to optimize their budget and savings.  
+By delivering these insights, the dashboard will enable the client to make informed and strategic decisions to optimize their budget and savings.
+
+## Data Source  
+
+#### Data Requirements  
+To achieve the objective of providing actionable financial insights, the following data is required for the month of November:  
+- **Total Income and Total Expenses**: A summary of the client’s overall financial activity.  
+- **Daily Expenses**: Detailed transactions to analyze spending trends on a day-to-day basis.  
+- **Spending Categories**: Detailed information on where the client’s money is spent.
+
+#### Data Origin  
+The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis.  
+
 🐱‍🏍
 
 # Header
