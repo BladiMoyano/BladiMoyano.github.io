@@ -26,6 +26,24 @@ To achieve the objective of providing actionable financial insights, the followi
 #### Data Origin  
 The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis.  
 
+## Stages
+- Design
+- Development
+- Testing
+- Analysis
+
+## Design
+
+### Dashboard mockup
+- What should it look like?
+Some of the data visuals that may be appropriate for answering our questions include:
+-Bar Chart
+-Gauge Chart 
+-Line and Column Chart
+-Scorecards
+
+
+
 🐱‍🏍
 
 # Header
