@@ -78,4 +78,4 @@ To effectively address the client's requirements and present actionable insights
 - **Line and Column Chart**
 - **Scorecards**
 
-
+![Dashboard-MockUp](assets/images/Dashboard_MuckUp_PowerBI.PNG)
