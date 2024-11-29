@@ -24,7 +24,42 @@ To achieve the objective of providing actionable financial insights, the followi
 - **Spending Categories**: Detailed information on where the client’s money is spent.
 
 #### Data Origin  
-The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis.  
+The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis. 
+
+
+## Tools Used
+
+
+<table style="width:100%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #f4f4f4; border-bottom: 2px solid #ddd;">
+      <th style="padding: 10px; border: 1px solid #ddd;">Tool</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Excel</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Exploring the data</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">SQL Server</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cleaning, testing, and analyzing the data</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Power BI</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Visualizing the data via interactive dashboards</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">GitHub</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Hosting the project documentation and version control</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mokkup AI</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Designing the wireframe/mockup of the dashboard</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Stages
 - Design
@@ -34,18 +69,13 @@ The data is sourced directly from the client’s **N26 account**, ensuring accur
 
 ## Design
 
-### Dashboard mockup
-- What should it look like?
-Some of the data visuals that may be appropriate for answering our questions include:
--Bar Chart
--Gauge Chart 
--Line and Column Chart
--Scorecards
+### Dashboard Mockup  
+
+To effectively address the client's requirements and present actionable insights, the following data visualizations are proposed for the dashboard:  
+
+- **Bar Chart**
+- **Gauge Chart**
+- **Line and Column Chart**
+- **Scorecards**
 
 
-
-🐱‍🏍
-
-# Header
-
-## Subheader
