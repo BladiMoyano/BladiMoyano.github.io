@@ -90,5 +90,38 @@ To effectively address the client's requirements and present actionable insights
 5. Test the data with SQL
 6. Visualize the data in Power BI
 7. Generate findings based on the insights
-###
-###
+
+### Data exploration notes
+
+From the provided dataset, we extract only the following four columns, as they are relevant to the analysis:
+
+- **Booking Date**: The date of the transaction.
+- **Partner Name**: The recipient of the funds.
+- **Account Name**: The source of the funds.
+- **Amount (EUR)**: The transaction amount.
+
+Then, we move to:
+
+- **Remove Irrelevant Rows:** Rows containing "Ahorro" in either the *Partner Name* or *Account Name* columns are deleted. These represent transfers from the client's main account to their savings account, which are considered irrelevant (net effect equals zero).
+
+- **Standardize Entries:** Certain values in the *Partner Name* column are consolidated for consistency:
+     - `MAIORA SRL FIL.70 PAOL` is renamed to `Interspar`.
+     - `Telefonica Germany GmbH + Co. OHG` is renamed to `Telefonica GmbH`.
+     - `GOOGLE * Google One` is renamed to `Google One`.
+
+### Data Cleaning
+
+### Tasks: 
+  - Extract and retain only the necessary columns.  
+  - Rename columns for clarity and consistency.  
+  - Standardize and unify row values.  
+  - Identify and remove duplicate entries.  
+
+### Objectives:  
+- Limit the dataset to **4 columns**.  
+- Ensure column data types are as follows:  
+  - **Date** (Booking_Date)  
+  - **Text** (Partner Name & Account Name)  
+  - **Decimal Number** (Amount (EUR))  
+- Final dataset contains **17 rows** of data.  
+- Eliminate all duplicates.  
