@@ -93,14 +93,14 @@ To effectively address the client's requirements and present actionable insights
 
 ### Data exploration notes
 
-From the provided dataset, we extract only the following four columns, as they are relevant to the analysis:
+From the provided dataset, I only need the following four columns, as they are relevant to the analysis:
 
 - **Booking Date**: The date of the transaction.
 - **Partner Name**: The recipient of the funds.
 - **Account Name**: The source of the funds.
 - **Amount (EUR)**: The transaction amount.
 
-Then, we move to:
+I'll also move forward to:
 
 - **Remove Irrelevant Rows:** Rows containing "Ahorro" in either the *Partner Name* or *Account Name* columns are deleted. These represent transfers from the client's main account to their savings account, which are considered irrelevant (net effect equals zero).
 
@@ -109,19 +109,24 @@ Then, we move to:
      - `Telefonica Germany GmbH + Co. OHG` is renamed to `Telefonica GmbH`.
      - `GOOGLE * Google One` is renamed to `Google One`.
 
-### Data Cleaning
+- **Ensure column data types are as follows:**
+  - **Date** (Booking Date)
+  - **Text** (Partner Name & Account Name)
+  - **Decimal Number** (Amount (EUR))
+
+
+## Data Cleaning
 
 ### Tasks: 
-  - Extract and retain only the necessary columns.  
-  - Rename columns for clarity and consistency.  
-  - Standardize and unify row values.  
-  - Identify and remove duplicate entries.  
+  - Extract and retain only the necessary columns.
+    /code/ /selecting the columns/
+  - Creating SQL View.
+    /code/
+  - Rename columns and rows for clarity and consistency.(2)
+     /code/ /for renaming the columns and rows/
+  - Data type check.
+     /code/ /for renaming the columns and rows/
+  - Duplicates check.
+    /code/
+  
 
-### Objectives:  
-- Limit the dataset to **4 columns**.  
-- Ensure column data types are as follows:  
-  - **Date** (Booking_Date)  
-  - **Text** (Partner Name & Account Name)  
-  - **Decimal Number** (Amount (EUR))  
-- Final dataset contains **17 rows** of data.  
-- Eliminate all duplicates.  
