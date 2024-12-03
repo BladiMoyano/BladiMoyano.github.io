@@ -118,15 +118,30 @@ I'll also move forward to:
 ## Data Cleaning
 
 ### Tasks: 
-  - Extract and retain only the necessary columns.
-    /code/ /selecting the columns/
-  - Creating SQL View.
-    /code/
-  - Rename columns and rows for clarity and consistency.(2)
-     /code/ /for renaming the columns and rows/
-  - Data type check.
-     /code/ /for renaming the columns and rows/
-  - Duplicates check.
-    /code/
-  
 
+ * Rename columns and rows for better usability and readability.
+
+``` sql
+-- Rename columns and update data types
+ALTER TABLE nov_transactions
+CHANGE COLUMN `Booking Date` Booking_Date DATE,
+CHANGE COLUMN `Partner Name` Partner_Name TEXT,
+CHANGE COLUMN `Account_Name` Account_Name TEXT,
+CHANGE COLUMN `Amount (EUR)` Amount_EUR DECIMAL(10, 2);
+
+-- Standardize values in the Partner_Name column
+UPDATE nov_transactions
+SET Partner_Name = 'Interspar Maiora'
+WHERE Partner_Name = 'MAIORA SRL FIL.70 PAOL';
+
+UPDATE nov_transactions
+SET Partner_Name = 'Telefonica Germany GmbH'
+WHERE Partner_Name = 'Telefonica Germany GmbH + Co. OHG';
+
+UPDATE nov_transactions 
+SET Partner_Name = 'Google One'
+WHERE Partner_Name = 'GOOGLE *Google One';
+```
+  * Output:
+    
+![Columns&Rows-Output](assets/images/Columns&Rows-Result.PNG)
