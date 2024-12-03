@@ -119,7 +119,7 @@ I'll also move forward to:
 
 ### Tasks: 
 
- * Rename columns and rows for better usability and readability.
+ * **Rename columns and rows for better usability and readability**.
 
 ``` sql
 -- Rename columns and update data types
@@ -145,3 +145,28 @@ WHERE Partner_Name = 'GOOGLE *Google One';
   * Output:
     
 ![Columns&Rows-Output](assets/images/Columns&Rows-Result.PNG)
+
+ * **Creating the SQL view**.
+```sql
+CREATE VIEW view_nov_transactions AS
+SELECT
+    Booking_Date,       
+    Partner_Name,        
+    Account_Name,        
+    Amount_EUR           
+FROM
+    nov_transactions;   
+```
+  * Output:
+    
+![View-Output](assets/images/Columns&Rows-Result.PNG)
+
+
+
+
+
+
+
+
+
+
