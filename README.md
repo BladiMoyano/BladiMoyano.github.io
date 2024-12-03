@@ -161,9 +161,17 @@ FROM
     
 ![View-Output](assets/images/Columns&Rows-Result.PNG)
 
+ * **Removing Irrelevant Rows**.
+```sql
+DELETE FROM view_nov_transactions
+WHERE Account_Name = 'Ahorros';
 
+DELETE FROM view_nov_transactions
+WHERE Partner_Name = 'Ahorros';
+```
+* Output:
 
-
+![Rows-Deleted](assets/images/Rows-Deleted.PNG)
 
 
 
