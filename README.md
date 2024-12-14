@@ -222,3 +222,8 @@ HAVING COUNT(*) > 1;
 
 ![Duplicates-Count-Check](assets/images/4.duplicates.PNG)
 
+## Visualization.
+
+This is what the dashboard looks like.
+
+![Dashboard](assets/images/dashboard-gif.gif)
