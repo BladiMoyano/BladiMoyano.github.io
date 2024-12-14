@@ -2,10 +2,10 @@
 
 ## Objective: Empowering Financial Decision-Making Through Data Visualization  
 
-#### Key Point  
+### Key Point  
 The client is seeking clarity on their financial habits, particularly for the month of November. They require a clear and comprehensive visualization of their spending patterns to better manage their savings and improve financial decision-making.  
 
-#### Proposed Solution  
+### Proposed Solution  
 Develop a data-driven dashboard that provides actionable insights into the client’s monthly expenditures. The dashboard will include:  
 
 - **Total Income and Expenditure**: A snapshot of the client’s financial balance for the month.  
@@ -17,13 +17,13 @@ By delivering these insights, the dashboard will enable the client to make infor
 
 ## Data Source  
 
-#### Data Requirements  
+### Data Requirements  
 To achieve the objective of providing actionable financial insights, the following data is required for the month of November:  
 - **Total Income and Total Expenses**: A summary of the client’s overall financial activity.  
 - **Daily Expenses**: Detailed transactions to analyze spending trends on a day-to-day basis.  
 - **Spending Categories**: Detailed information on where the client’s money is spent.
 
-#### Data Origin  
+### Data Origin  
 The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis. 
 
 
@@ -176,7 +176,49 @@ WHERE Partner_Name = 'Ahorros';
 ![Rows-Deleted](assets/images/Rows-Deleted.PNG)
 
 ## Data Testing
+Here are the data quality tests conducted:
 
+### Row count.
 
+```sql
+SELECT COUNT (*) AS no_of_rows
+FROM view_nov_transactions;
+```
+* Output:
 
+![Rows-Count-Check](assets/images/1.nr_of_rows.PNG)
+
+### Column count.
+
+```sql
+SELECT COUNT(*) AS column_count
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_nov_transactions';
+```
+* Output:
+
+![Column-Count-Check](assets/images/2.column_count.PNG)
+
+### Data type.
+
+```sql
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_nov_transactions';
+```
+* Output:
+
+![DataType-Count-Check](assets/images/3.data_check.PNG)
+
+### Duplicates.
+
+```sql
+SELECT Booking_Date, Partner_Name, Account_Name, Amount_EUR, COUNT(*) AS duplicate_count
+FROM view_nov_transactions
+GROUP BY Booking_Date, Partner_Name, Account_Name, Amount_EUR
+HAVING COUNT(*) > 1;
+```
+* Output:
+
+![Duplicates-Count-Check](assets/images/4.duplicates.PNG)
 
