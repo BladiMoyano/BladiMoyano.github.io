@@ -230,6 +230,9 @@ This is what the dashboard looks like.
 
 ### DAX Measures
 
+In Power BI, I split the "Amount_EUR" column into two: one for income (Ingresos) with positive values and another for expenditure (Gastos) with negative values.
+
 ```sql
 Savings = SUM('view_nov_transactions csv'[Ingresos])-SUM('view_nov_transactions csv'[Gastos])
 ```
+
