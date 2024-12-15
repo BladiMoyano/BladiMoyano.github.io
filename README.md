@@ -227,3 +227,9 @@ HAVING COUNT(*) > 1;
 This is what the dashboard looks like.
 
 ![Dashboard](assets/images/dashboard-gif.gif)
+
+### DAX Measures
+
+```sql
+Savings = SUM('view_nov_transactions csv'[Ingresos])-SUM('view_nov_transactions csv'[Gastos])
+```
