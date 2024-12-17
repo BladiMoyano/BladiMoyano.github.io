@@ -235,4 +235,6 @@ In Power BI, I separated the "Amount_EUR" column into two distinct categories: o
 ```sql
 Savings = SUM('view_nov_transactions csv'[Ingresos])-SUM('view_nov_transactions csv'[Gastos])
 ```
+## Findings.
 
+The client currently allocates a significant portion of their budget to essential expenses, such as groceries and bills. To improve financial flexibility, reducing discretionary spending on gifts and online shopping could be beneficial. Additionally, exploring opportunities to increase income through side ventures or career growth would strengthen their overall financial position and provide more long-term stability.
