@@ -2,10 +2,6 @@
 
 ## Objective: Empowering Financial Decision-Making Through Data Visualization  
 
-<a href="https://Portfolio2.github.io" target="_blank">Visit my Portfolio</a>
-
-
-
 ### Key Point  
 The client is seeking clarity on their financial habits, particularly for the month of November. They require a clear and comprehensive visualization of their spending patterns to better manage their savings and improve financial decision-making.  
 
