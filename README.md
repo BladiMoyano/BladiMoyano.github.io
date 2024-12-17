@@ -2,8 +2,7 @@
 
 ## Objective: Empowering Financial Decision-Making Through Data Visualization  
 
-<a href="[https://github.com/your-username](https://bladimoyano.github.io/Portfolio2.github.io/)" target="_blank">Visit My GitHub Portfolio</a>
-
+<a href="[https://bladimoyano.github.io/Portfolio2.github.io/]" target="_blank">Visit My GitHub Portfolio</a>
 
 ### Key Point  
 The client is seeking clarity on their financial habits, particularly for the month of November. They require a clear and comprehensive visualization of their spending patterns to better manage their savings and improve financial decision-making.  
