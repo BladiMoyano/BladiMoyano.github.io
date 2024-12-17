@@ -19,7 +19,7 @@ To achieve the objective of providing actionable financial insights, the followi
 - **Daily Expenses**: Detailed transactions to analyze spending trends on a day-to-day basis.  
 - **Spending Categories**: Detailed information on where the client’s money is spent.
 
-### Data Origin  
+### Origin  
 The data is sourced directly from the client’s **N26 account**, ensuring accurate and up-to-date financial records for analysis. 
 
 
@@ -78,15 +78,6 @@ To effectively address the client's requirements and present actionable insights
 
 ## Development
 
-### Process
-1. Get the data
-2. Explore the data in Excel
-3. Load the data into SQL Server
-4. Clean the data with SQL
-5. Test the data with SQL
-6. Visualize the data in Power BI
-7. Generate findings based on the insights
-
 ### Data exploration notes
 
 From the provided dataset, I only need the following four columns, as they are relevant to the analysis:
@@ -111,9 +102,7 @@ I'll also move forward to:
   - **Decimal Number** (Amount (EUR))
 
 
-## Data Cleaning
-
-### Tasks: 
+### Data Cleaning
 
  * **Rename columns and rows for better usability and readability**.
 
