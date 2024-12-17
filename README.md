@@ -13,7 +13,7 @@ Develop a data-driven dashboard that provides actionable insights into the clien
 
 ## Data Source  
 
-### Data Requirements  
+### Requirements  
 To achieve the objective of providing actionable financial insights, the following data is required for the month of November:  
 - **Total Income and Total Expenses**: A summary of the client’s overall financial activity.  
 - **Daily Expenses**: Detailed transactions to analyze spending trends on a day-to-day basis.  
