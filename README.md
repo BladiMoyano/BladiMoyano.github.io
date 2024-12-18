@@ -1,4 +1,4 @@
-# Data Portfolio: Excel to PowerBI
+# Monthly Expenditures Project: Excel, SQL, PowerBI
 
 ### Overview
 The client is seeking clarity on their financial habits, particularly for the month of November. They require a clear and comprehensive visualization of their spending patterns to better manage their savings and improve financial decision-making.  
