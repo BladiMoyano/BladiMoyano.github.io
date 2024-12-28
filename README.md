@@ -1,4 +1,4 @@
-# Monthly Expenditures Project: Excel, SQL, PowerBI ETC
+# Monthly Expenditures Project: Excel, SQL, PowerBI
 
 ### Overview
 The client is seeking clarity on their financial habits, particularly for the month of November. They require a clear and comprehensive visualization of their spending patterns to better manage their savings and improve financial decision-making.  
@@ -223,5 +223,3 @@ Savings = SUM('view_nov_transactions csv'[Ingresos])-SUM('view_nov_transactions 
 ## Findings.
 
 The client currently allocates a significant portion of their budget to essential expenses, such as groceries and bills. To improve financial flexibility, reducing discretionary spending on gifts and online shopping could be beneficial. Additionally, exploring opportunities to increase income through side ventures or career growth would strengthen their overall financial position and provide more long-term stability.
-
-ASK
